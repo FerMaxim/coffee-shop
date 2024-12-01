@@ -2,7 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'; // Добавьте эту строку
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css'; // Ваши стили, если они есть
+import './style.css'; // Ваши стили, если они есть
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
