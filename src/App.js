@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';  // Подключение сти
 import About from './pages/About';
 import Franchise from './pages/Franchise';
 import PreOrder from './pages/PreOrder';
+import Home from './pages/Home';
 
 // Главный компонент приложения
 const App = () => {
@@ -31,7 +32,7 @@ const App = () => {
 
         {/* Основное содержимое */}
         <Routes>
-          <Route path="/" element={<h1>Кофейный магазин</h1>} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/franchise" element={<Franchise />} />
           <Route path="/preorder" element={<PreOrder />} />
